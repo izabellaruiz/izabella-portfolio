@@ -1,0 +1,46 @@
+.bag-section {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .bag-section h2 {
+    font-size: 2.5rem;
+    color: #cc338b;
+    margin-bottom: 2.5rem;
+  }
+  
+  .bag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .bag-item {
+    position: relative;
+    background-color: #ffe6f0;
+    padding: 2rem 1rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+    cursor: default;
+  }
+  
+  .bag-item:hover {
+    transform: translateY(-6px);
+  }
+  
+  .bag-emoji {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .bag-label {
+    font-size: 1rem;
+    color: #444;
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,66 @@
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffe6f0, #fff);
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .hero-title {
+    font-size: 3.75rem;
+    color: #cc338b;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  .scroll-indicator {
+    display: block;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    color: #cc338b;
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+  /* Floating text strip behind the main content */
+  .floating-text {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    white-space: nowrap;
+    font-size: 3rem;
+    color: rgba(204, 51, 139, 0.1);
+    animation: slide 20s linear infinite;
+    z-index: 1;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  

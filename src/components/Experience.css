@@ -1,0 +1,64 @@
+.experience-section {
+    padding: 6rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .experience-section h2 {
+    font-size: 2.5rem;
+    color: #cc338b;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline {
+    position: relative;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    border-left: 3px solid #ffb6c1;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    text-align: left;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: -1.2rem;
+    top: 0.5rem;
+    height: 14px;
+    width: 14px;
+    background-color: #cc338b;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .timeline-content h3 {
+    font-size: 1.3rem;
+    color: #cc338b;
+    margin-bottom: 0.2rem;
+  }
+  
+  .timeline-content .place {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #444;
+  }
+  
+  .timeline-content .date {
+    font-size: 0.9rem;
+    color: #888;
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+  
+  .timeline-content p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
